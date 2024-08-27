@@ -1,0 +1,80 @@
+/* privacy-policy.css */
+
+/* General body styles for the Privacy Policy page */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background: linear-gradient(to right, #e40c0c, #0816d1); /* Red to blue gradient */
+    color: white; /* White text */
+    padding: 10px; /* Padding around the header */
+    text-align: center; /* Center-align text */
+}
+.header-content h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+/* Main content styles */
+main {
+    padding: 2em;
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content h2, .content h3 {
+    color: #333;
+}
+
+.content ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.content a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.content a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styles */
+footer {
+    background-color: #4e4e4e; /* Dark background color */
+    color: white; /* White text color */
+    padding: 7px; /* Padding around the footer */
+    text-align: center; /* Center-align text */
+}
+
+.footer-content {
+    max-width: 1200px; /* Limit width of footer content */
+    margin: 0 auto; /* Center footer content */
+}
+
+footer p {
+    margin: 5px 0; /* Margin around paragraphs */
+    font-size: 0.8em; /* Base font size */
+}
+
+footer a {
+    color: #4CAF50; /* Green color for links */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 0.8em; /* Base font size */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Underline on hover for better user interaction */
+}
