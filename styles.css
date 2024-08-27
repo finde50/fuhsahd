@@ -84,7 +84,7 @@ main {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.7); /* Semi-transparent black */
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
     z-index: 1; /* Ensure overlay is above the background image but below the text */
 }
 
