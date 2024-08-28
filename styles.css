@@ -207,7 +207,7 @@ footer a:hover {
 /* Mobile styles */
 @media (max-width: 767px) {
     .section::before {
-        background: rgba(0, 0, 0, 0.9); /* Default overlay for mobile */
+        background: rgba(0, 0, 0, 0.8); /* Default overlay for mobile */
     }
 }
 
