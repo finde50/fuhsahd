@@ -216,15 +216,8 @@ footer a:hover {
 @media (max-width: 767px) {
 
     .section::before {
-        background: rgba(0, 0, 0, 0.4); /* Default overlay for mobile */
+        background: rgba(0, 0, 0, 0.5); /* Default overlay for mobile */
     }
-
-    /* Dark mode transparency */
-@media (prefers-color-scheme: dark) {
-    .section::before {
-        background: rgba(0, 0, 0, 0.6); /* Darker transparency */
-    }
-}
     
     h1 {
         font-size: 2em; /* Adjusted font size for tablet */
