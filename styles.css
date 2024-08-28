@@ -260,25 +260,6 @@ footer a:hover {
         background-image: url('images/image4-mobile.jpg'); /* Tablet background image for the fourth section */
     }
 
-    /* Dark mode background images */
-    @media (prefers-color-scheme: dark) {
-    .section:nth-of-type(1) {
-        background-image: url('images/image1-mobile-dark.jpg'); /* Dark mode background image for the first section */
-    }
-
-    .section:nth-of-type(2) {
-        background-image: url('images/image2-mobile-dark.jpg'); /* Dark mode background image for the second section */
-    }
-
-    .section:nth-of-type(3) {
-        background-image: url('images/image3-mobile-dark.jpg'); /* Dark mode background image for the third section */
-    }
-
-    .section:nth-of-type(4) {
-        background-image: url('images/image4-mobile-dark.jpg'); /* Dark mode background image for the fourth section */
-    }
-}
-
     .submit-button {
         background-color: #120fe0; /* Green background color */
         color: white; /* White text color */
