@@ -209,7 +209,7 @@ footer a:hover {
 
     /* Default transparency for light mode */
     .section::before {
-        background: rgba(0, 0, 0, 0.1); /* Light mode transparency */
+        background: rgba(0, 0, 0, 0.3); /* Light mode transparency */
     }
     
     /* Apply different transparency for dark mode */
