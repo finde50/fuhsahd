@@ -88,6 +88,13 @@ main {
     z-index: 1; /* Ensure overlay is above the background image but below the text */
 }
 
+/* Dark mode transparency */
+@media (prefers-color-scheme: dark) {
+    .section::before {
+        background: rgba(0, 0, 0, 0.2); /* Darker transparency */
+    }
+}
+
 /* Ensure text content is above the overlay */
 .section > * {
     position: relative;
