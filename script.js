@@ -19,23 +19,4 @@ document.addEventListener('DOMContentLoaded', function() {
     sections.forEach(section => {
         observer.observe(section);
     });
-
-    // Optional: Handle theme changes dynamically
-    const themeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
-
-    function applyTheme() {
-        if (themeMediaQuery.matches) {
-            document.body.classList.add('dark-mode');
-            document.body.classList.remove('light-mode');
-        } else {
-            document.body.classList.add('light-mode');
-            document.body.classList.remove('dark-mode');
-        }
-    }
-
-    // Initial theme check
-    applyTheme();
-
-    // Listen for changes in the color scheme
-    themeMediaQuery.addEventListener('change', applyTheme);
 });
