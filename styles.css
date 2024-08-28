@@ -210,6 +210,10 @@ footer a:hover {
     .section::before {
         background: rgba(0, 0, 0, 0.2); /* Default overlay for mobile */
     }
+
+    .section-content {
+        background-color: rgba(255, 255, 255, 0.8); /* Semi-white background color for mobile */
+    }
     
     h1 {
         font-size: 2em; /* Adjusted font size for tablet */
