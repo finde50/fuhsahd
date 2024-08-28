@@ -87,7 +87,6 @@ main {
     background: rgba(0, 0, 0, 0.6); /* Semi-transparent black */
     z-index: 1; /* Ensure overlay is above the background image but below the text */
 }
-
 /* Ensure text content is above the overlay */
 .section > * {
     position: relative;
@@ -204,11 +203,21 @@ footer a:hover {
     background-color: #db19db; /* Slightly darker green on hover */
 }
 
+.section::before {
+    background: rgba(0, 0, 0, 0.4); /* Lighter overlay for light mode */
+}
+
 /* Mobile styles */
 @media (max-width: 767px) {
-
     .section::before {
-        background: rgba(0, 0, 0, 0.2); /* Default overlay for mobile */
+        background: rgba(0, 0, 0, 0.6); /* Default overlay for mobile */
+    }
+}
+
+/* Dark Mode Styles for Mobile Devices */
+@media (max-width: 767px) and (prefers-color-scheme: dark) {
+    .section::before {
+        background: rgba(0, 0, 0, 0.2); /* Darker overlay for dark mode */
     }
     
     h1 {
