@@ -84,7 +84,7 @@ main {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.6); /* Semi-transparent black */
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent black */
     z-index: 1; /* Ensure overlay is above the background image but below the text */
 }
 
@@ -204,20 +204,16 @@ footer a:hover {
     background-color: #db19db; /* Slightly darker green on hover */
 }
 
-/* Mobile-specific styles */
+/* Mobile styles */
 @media (max-width: 767px) {
-    /* Adjust the semi-transparent overlay for mobile */
-    .section::before {
-        background: rgba(0, 0, 0, 0.5); /* Darker overlay for mobile */
-    }
-}
 
-/* Dark mode only for mobile */
-@media (max-width: 767px) and (prefers-color-scheme: dark) {
-    .section::before {
-        background: rgba(255, 255, 255, 0.3); /* Lighter overlay for dark mode on mobile */
-    }
+    @media (max-width: 767px) {
 
+        /* Adjust the semi-transparent overlay for mobile */
+        .section::before {
+            background: rgba(0, 0, 0, 0.5); /* Darker overlay for mobile */
+        }
+    }
     
     
     h1 {
