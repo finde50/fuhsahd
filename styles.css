@@ -91,7 +91,7 @@ main {
 /* Dark mode transparency */
 @media (prefers-color-scheme: dark) {
     .section::before {
-        background: rgba(0, 0, 0, 0.2); /* Darker transparency */
+        background: rgba(0, 0, 0, 0.1); /* Darker transparency */
     }
 }
 
