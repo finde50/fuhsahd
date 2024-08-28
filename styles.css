@@ -211,7 +211,7 @@ footer a:hover {
 
         /* Adjust the semi-transparent overlay for mobile */
         .section::before {
-            background: rgba(0, 0, 0, 0.3); /* Darker overlay for mobile */
+            background: rgba(0, 0, 0, 0.6); /* Darker overlay for mobile */
         }
     }
     
