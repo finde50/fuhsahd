@@ -207,14 +207,16 @@ footer a:hover {
 /* Mobile styles */
 @media (max-width: 767px) {
 
-    @media (max-width: 767px) {
+    .section::before {
+        background: rgba(0, 0, 0, 0.5); /* Default overlay for mobile */
+    }
 
-        /* Adjust the semi-transparent overlay for mobile */
+    /* Dark mode in mobile view */
+    @media (prefers-color-scheme: dark) {
         .section::before {
-            background: rgba(0, 0, 0, 0.6); /* Darker overlay for mobile */
+            background: rgba(0, 0, 0, 0.3); /* Darker overlay for dark mode */
         }
     }
-    
     
     h1 {
         font-size: 2em; /* Adjusted font size for tablet */
