@@ -87,6 +87,7 @@ main {
     background: rgba(0, 0, 0, 0.6); /* Semi-transparent black */
     z-index: 1; /* Ensure overlay is above the background image but below the text */
 }
+
 /* Ensure text content is above the overlay */
 .section > * {
     position: relative;
@@ -205,15 +206,9 @@ footer a:hover {
 
 /* Mobile styles */
 @media (max-width: 767px) {
-    .section::before {
-        background: rgba(0, 0, 0, 0.8); /* Default overlay for mobile */
-    }
-}
 
-/* Dark Mode Styles for Mobile Devices */
-@media (max-width: 767px) and (prefers-color-scheme: dark) {
     .section::before {
-        background: rgba(0, 0, 0, 0.2); /* Darker overlay for dark mode */
+        background: rgba(0, 0, 0, 0.2); /* Default overlay for mobile */
     }
     
     h1 {
@@ -334,4 +329,3 @@ footer a:hover {
         background-image: url('images/image4-mobile.jpg'); /* Tablet background image for the fourth section */
     }
 }
-
