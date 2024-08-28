@@ -204,11 +204,19 @@ footer a:hover {
     background-color: #db19db; /* Slightly darker green on hover */
 }
 
-/* Mobile styles */
+/* Mobile view styles */
 @media (max-width: 767px) {
 
+    /* Default transparency for light mode */
     .section::before {
-        background: rgba(0, 0, 0, 0.2); /* Default overlay for mobile */
+        background: rgba(0, 0, 0, 0.6); /* Light mode transparency */
+    }
+    
+    /* Apply different transparency for dark mode */
+    @media (prefers-color-scheme: dark) {
+        .section::before {
+            background: rgba(0, 0, 0, 0.2); /* Dark mode transparency */
+        }
     }
     
     h1 {
