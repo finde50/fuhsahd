@@ -203,10 +203,6 @@ footer a:hover {
     background-color: #db19db; /* Slightly darker green on hover */
 }
 
-.section::before {
-    background: rgba(0, 0, 0, 0.4); /* Lighter overlay for light mode */
-}
-
 /* Mobile styles */
 @media (max-width: 767px) {
     .section::before {
