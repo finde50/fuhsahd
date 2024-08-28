@@ -216,13 +216,13 @@ footer a:hover {
 @media (max-width: 767px) {
 
     .section::before {
-        background: rgba(0, 0, 0, 0.6); /* Default overlay for mobile */
+        background: rgba(0, 0, 0, 0.4); /* Default overlay for mobile */
     }
 
     /* Dark mode transparency */
 @media (prefers-color-scheme: dark) {
     .section::before {
-        background: rgba(0, 0, 0, 0.1); /* Darker transparency */
+        background: rgba(0, 0, 0, 0.6); /* Darker transparency */
     }
 }
     
